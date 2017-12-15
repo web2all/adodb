@@ -1,0 +1,24 @@
+{
+    "name": "web2all/adodb",
+    "description": "Web2All wrapper for adodb",
+    "keywords": ["web2all","adodb","database"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Merijn van den Kroonenberg",
+            "homepage": "https://github.com/merijnvdk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "adodb/adodb-php" :"~5",
+        "web2all/framework" :"~1"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
+
